@@ -1,0 +1,47 @@
+.my-button{
+
+     width: 100px;
+    height: 40px; 
+    background-color: rgba(22, 214, 214, 0.911);
+    transition: width 2s; 
+    transition: height 2s;
+    transition: all 0s; 
+    transition-timing-function:linear ;
+    transition-delay: 3s;
+     transition: width 2s;
+}
+     .my-button{
+     animation-name: anime1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    transition-delay: 6s;
+     }
+
+
+
+.my-button:hover{
+
+    background-color: rgb(234, 184, 21);
+    
+     margin-top: 200px; 
+     margin-left: 200px; 
+   
+}
+
+   
+
+
+
+@keyframes anime1{
+
+    25%{
+        transform: translate(200px);
+    }
+    
+    75% {
+        transform: translate(100px, 200px);
+    }
+}
